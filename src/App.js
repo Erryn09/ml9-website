@@ -3,11 +3,14 @@ import Feed from "./components/Feed";
 
 function App() {
   return (
-    <div className="text-center bg-red-900 md:bg-slate-600 md">
+    <div
+      className=" text-gray-300 bg-no-repeat bg-fixed bg-cover bg-center "
+      style={{ backgroundImage: "url(/img/GauntletBene.png)" }}
+    >
       <Navbar />
-      <hi className="text-3xl text-green-400 bg-slate-300">
-        Habinger is an Otto!!!
-      </hi>
+      <Feed />
+      <Feed />
+      <Feed />
       <Feed />
     </div>
   );
