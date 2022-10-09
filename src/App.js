@@ -8,10 +8,15 @@ function App() {
       style={{ backgroundImage: "url(/img/GauntletBene.png)" }}
     >
       <Navbar />
+     <div className="flex flex-col mx-40 space-y-10 align-center justify-center">
       <Feed />
       <Feed />
       <Feed />
       <Feed />
+      <Feed />
+    
+      
+      </div> 
     </div>
   );
 }
