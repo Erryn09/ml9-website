@@ -1,7 +1,7 @@
-import React from "react";
-import Profile from "./Profile";
 import { useState } from "react";
 import Dropdown from "./Dropdown";
+import Profile from "./Profile";
+import React from "react";
 
 export default function Navbar() {
   const [showProfile, setShowProfile] = useState(false);
@@ -20,7 +20,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className=" bg-zinc-900 border-gray-200 px-2 sticky w-full top-0 sm:px-4 py-2.5 rounded">
+    <nav className=" bg-zinc-900 border-gray-200 z-10 px-2 sticky w-full top-0 sm:px-4 py-2.5 rounded-b">
       <div className=" flex flex-wrap justify-between items-center mx-auto">
         <p className=" flex items-center">
           <img
